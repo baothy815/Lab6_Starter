@@ -25,8 +25,6 @@ function getRecipesFromStorage() {
   //           header. It is possible in only a single line, but should
   //           be no more than a few lines.
 
-        
-  
           let recipes = localStorage.getItem("recipes");
 
           if (recipes != null ) {
@@ -72,7 +70,6 @@ function saveRecipesToStorage(recipes) {
   //            be no more than a few lines.
 
     localStorage.setItem("recipes", JSON.stringify(recipes));
-
 
 }
 
